@@ -14,7 +14,7 @@ export default function ContatoPage() {
   const whatsappMessage = encodeURIComponent("Olá! Gostaria de tirar algumas dúvidas sobre os serviços do studio.");
   const instagramUrl = "https://instagram.com/yasmimapolinariobeauty";
   const emailAddress = "yayaalves577@gmail.com";
-  const addressText = "Rua Doutor João Gomes, 5 - Bosque Fundo, Maricá - RJ (Shopping Roupa Mania, ao lado do Alpha Ville)";
+  const addressText = "Rua Doutor João Gomes, 5 - Bosque Fundo, Maricá - RJ (Shopping Roupa Mania, ao lado do Alphaville)";
 
   return (
     <main className="min-h-screen bg-background text-text-main flex flex-col justify-between relative overflow-hidden">
