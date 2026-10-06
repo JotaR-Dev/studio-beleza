@@ -20,7 +20,7 @@ export class WhatsAppService {
       throw new Error('O destinatário do WhatsApp não possui um número válido.');
     }
 
-    const apiVersion = process.env.META_API_VERSION || 'v22.0';
+    const apiVersion = process.env.META_API_VERSION || 'v26.0';
     const languageCode = process.env.WHATSAPP_LANGUAGE_CODE || 'pt_BR';
     const bodyParameters: WhatsAppTemplateParameter[] = parameters.map((text) => ({
       type: 'text',
